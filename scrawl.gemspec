@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Scrawl::VERSION
   gem.authors       = ["TJ Stankus"]
   gem.email         = ["tj@stank.us"]
-  gem.description   = %q{TODO: Write like a hacker.}
-  gem.summary       = %q{TODO: Write like a hacker.}
+  gem.description   = %q{Write like a hacker.}
+  gem.summary       = %q{Write like a hacker.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
