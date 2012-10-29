@@ -1,24 +1,10 @@
 # Scrawl
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'scrawl'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install scrawl
+Write like a hacker.
 
 ## Usage
 
-TODO: Write usage instructions here
+This is alpha software. You probably don't want to use it just yet.
 
 ## Contributing
 
