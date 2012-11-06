@@ -1,12 +1,18 @@
-# Scrawl
+Scrawl
+======
 
 Write like a hacker.
 
-## Usage
+Usage
+-----
 
 This is alpha software. You probably don't want to use it just yet.
 
-## Contributing
+### Commands
+
+
+Contributing
+------------
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
