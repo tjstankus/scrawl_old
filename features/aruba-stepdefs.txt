@@ -1,0 +1,137 @@
+.
+
+0.1101550 /^I run `([^`]*)`$/                                          # aruba-0.5.0/lib/aruba/cucumber.rb:56
+0.0000000 /^the stderr from "([^"]*)" should not contain "([^"]*)"$/   # aruba-0.5.0/lib/aruba/cucumber.rb:217
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the file "([^"]*)" should contain exactly:$/               # aruba-0.5.0/lib/aruba/cucumber.rb:273
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the file "([^"]*)" should contain:$/                       # aruba-0.5.0/lib/aruba/cucumber.rb:269
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the file "([^"]*)" should not contain "([^"]*)"$/          # aruba-0.5.0/lib/aruba/cucumber.rb:265
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the file "([^"]*)" should contain "([^"]*)"$/              # aruba-0.5.0/lib/aruba/cucumber.rb:261
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^a directory named "([^"]*)" should not exist$/             # aruba-0.5.0/lib/aruba/cucumber.rb:257
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^a directory named "([^"]*)" should exist$/                 # aruba-0.5.0/lib/aruba/cucumber.rb:253
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the following directories should not exist:$/              # aruba-0.5.0/lib/aruba/cucumber.rb:249
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the following directories should exist:$/                  # aruba-0.5.0/lib/aruba/cucumber.rb:245
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^a (\d+) byte file named "([^"]*)" should exist$/           # aruba-0.5.0/lib/aruba/cucumber.rb:241
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^a file named "([^"]*)" should not exist$/                  # aruba-0.5.0/lib/aruba/cucumber.rb:237
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^a file named "([^"]*)" should exist$/                      # aruba-0.5.0/lib/aruba/cucumber.rb:233
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the following files should not exist:$/                    # aruba-0.5.0/lib/aruba/cucumber.rb:229
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the following files should exist:$/                        # aruba-0.5.0/lib/aruba/cucumber.rb:225
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the file "([^"]*)" should not exist$/                      # aruba-0.5.0/lib/aruba/cucumber.rb:221
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the file "([^"]*)" should match \/([^\/]*)\/$/             # aruba-0.5.0/lib/aruba/cucumber.rb:277
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the stderr from "([^"]*)" should contain "([^"]*)"$/       # aruba-0.5.0/lib/aruba/cucumber.rb:213
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the stdout from "([^"]*)" should not contain "([^"]*)"$/   # aruba-0.5.0/lib/aruba/cucumber.rb:209
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the stdout from "([^"]*)" should contain "([^"]*)"$/       # aruba-0.5.0/lib/aruba/cucumber.rb:205
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the stdout should not contain:$/                           # aruba-0.5.0/lib/aruba/cucumber.rb:201
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the stdout should not contain "([^"]*)"$/                  # aruba-0.5.0/lib/aruba/cucumber.rb:197
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the stderr should not contain:$/                           # aruba-0.5.0/lib/aruba/cucumber.rb:193
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the stderr should not contain "([^"]*)"$/                  # aruba-0.5.0/lib/aruba/cucumber.rb:189
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the stdout should contain exactly:$/                       # aruba-0.5.0/lib/aruba/cucumber.rb:185
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the stdout should contain:$/                               # aruba-0.5.0/lib/aruba/cucumber.rb:181
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the stdout should contain "([^"]*)"$/                      # aruba-0.5.0/lib/aruba/cucumber.rb:177
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the stderr should contain exactly:$/                       # aruba-0.5.0/lib/aruba/cucumber.rb:173
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the stderr should contain:$/                               # aruba-0.5.0/lib/aruba/cucumber.rb:169
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the stderr should contain "([^"]*)"$/                      # aruba-0.5.0/lib/aruba/cucumber.rb:165
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^it should (pass|fail) with regexp?:$/                      # aruba-0.5.0/lib/aruba/cucumber.rb:160
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^it should (pass|fail) with exactly:$/                      # aruba-0.5.0/lib/aruba/cucumber.rb:156
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^it should (pass|fail) with:$/                              # aruba-0.5.0/lib/aruba/cucumber.rb:152
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the exit status should not be (\d+)$/                      # aruba-0.5.0/lib/aruba/cucumber.rb:148
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the exit status should be (\d+)$/                          # aruba-0.5.0/lib/aruba/cucumber.rb:144
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the output should not match:$/                             # aruba-0.5.0/lib/aruba/cucumber.rb:140
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the output should not match \/([^\/]*)\/$/                 # aruba-0.5.0/lib/aruba/cucumber.rb:136
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the output should match:$/                                 # aruba-0.5.0/lib/aruba/cucumber.rb:131
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the output should match \/([^\/]*)\/$/                     # aruba-0.5.0/lib/aruba/cucumber.rb:127
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the output should contain exactly:$/                       # aruba-0.5.0/lib/aruba/cucumber.rb:119
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the output should contain exactly "([^"]*)"$/              # aruba-0.5.0/lib/aruba/cucumber.rb:115
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the output should not contain:$/                           # aruba-0.5.0/lib/aruba/cucumber.rb:111
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the output should contain:$/                               # aruba-0.5.0/lib/aruba/cucumber.rb:107
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the output should not contain "([^"]*)"$/                  # aruba-0.5.0/lib/aruba/cucumber.rb:103
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the output from "([^"]*)" should not contain "([^"]*)"$/   # aruba-0.5.0/lib/aruba/cucumber.rb:99
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the output from "([^"]*)" should contain "([^"]*)"$/       # aruba-0.5.0/lib/aruba/cucumber.rb:95
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the output should contain "([^"]*)"$/                      # aruba-0.5.0/lib/aruba/cucumber.rb:91
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^I wait for (?:output|stdout) to contain "([^"]*)"$/        # aruba-0.5.0/lib/aruba/cucumber.rb:82
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^I type "([^"]*)"$/                                         # aruba-0.5.0/lib/aruba/cucumber.rb:78
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^I run `([^`]*)` interactively$/                            # aruba-0.5.0/lib/aruba/cucumber.rb:74
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^I run "([^"]*)" interactively$/                            # aruba-0.5.0/lib/aruba/cucumber.rb:69
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^I successfully run `([^`]*)`$/                             # aruba-0.5.0/lib/aruba/cucumber.rb:65
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^I successfully run "(.*)"$/                                # aruba-0.5.0/lib/aruba/cucumber.rb:60
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^I run "(.*)"$/                                             # aruba-0.5.0/lib/aruba/cucumber.rb:51
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^I cd to "([^"]*)"$/                                        # aruba-0.5.0/lib/aruba/cucumber.rb:47
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^I remove the file "([^"]*)"$/                              # aruba-0.5.0/lib/aruba/cucumber.rb:43
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^I append to "([^"]*)" with "([^"]*)"$/                     # aruba-0.5.0/lib/aruba/cucumber.rb:39
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^I append to "([^"]*)" with:$/                              # aruba-0.5.0/lib/aruba/cucumber.rb:35
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^I overwrite "([^"]*)" with:$/                              # aruba-0.5.0/lib/aruba/cucumber.rb:31
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^I write to "([^"]*)" with:$/                               # aruba-0.5.0/lib/aruba/cucumber.rb:27
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^an empty file named "([^"]*)"$/                            # aruba-0.5.0/lib/aruba/cucumber.rb:23
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^a (\d+) byte file named "([^"]*)"$/                        # aruba-0.5.0/lib/aruba/cucumber.rb:19
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^a file named "([^"]*)" with:$/                             # aruba-0.5.0/lib/aruba/cucumber.rb:15
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^a directory named "([^"]*)"$/                              # aruba-0.5.0/lib/aruba/cucumber.rb:11
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^I'm using a clean gemset "([^"]*)"$/                       # aruba-0.5.0/lib/aruba/cucumber.rb:7
+  NOT MATCHED BY ANY STEPS
+0.0000000 /^the file "([^"]*)" should not match \/([^\/]*)\/$/         # aruba-0.5.0/lib/aruba/cucumber.rb:281
+  NOT MATCHED BY ANY STEPS
+
+1 scenario (1 passed)
+1 step (1 passed)
+0m0.114s
