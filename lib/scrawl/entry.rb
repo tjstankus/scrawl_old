@@ -1,6 +1,7 @@
 require 'metadown'
 require 'time'
 
+module Scrawl
 class Entry
   attr_reader :file_content
 
@@ -25,4 +26,5 @@ class Entry
   def parse
     Metadown.render(file_content)
   end
+end
 end

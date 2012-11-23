@@ -1,6 +1,6 @@
 require_relative '../spec_helper'
 
-describe Entry do
+describe Scrawl::Entry do
 
   let(:markdown) {
 <<MARKDOWN
@@ -14,7 +14,7 @@ MARKDOWN
   }
 
   let(:entry) {
-    Entry.new(markdown)
+    Scrawl::Entry.new(markdown)
   }
 
   it 'generates filename' do
@@ -31,7 +31,6 @@ MARKDOWN
     end
   end
 
-  # TODO: Should these be in separate objects? HtmlWriter, TagWriter, etc.?
   # it 'writes html file'
-  # it 'writes tags to json data store'
+  it 'writes tags to json data store'
 end
