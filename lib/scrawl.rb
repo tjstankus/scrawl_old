@@ -1,7 +1,8 @@
 $:.unshift File.dirname(__FILE__)
 
-require 'scrawl/version'
+require 'scrawl/entry'
 require 'scrawl/installer'
+require 'scrawl/version'
 
 module Scrawl
   # Your code goes here...
