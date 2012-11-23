@@ -1,8 +1,13 @@
 $:.unshift File.join(File.dirname(__FILE__), *%w(.. lib))
 require 'rspec'
 require 'scrawl'
+
+# Requires supporting ruby files with custom matchers and macros, etc,
+# in spec/support/ and its subdirectories.
+Dir[File.join(File.dirname(__FILE__), "support/**/*.rb")].each { |f| require f}
+
 require 'fakefs'
 
-# Use tmp/rspec directory for file operations
-# FileUtils.mkdir_p('tmp/rspec/') unless File.directory?('tmp/rspec/')
-# FileUtils.cd('tmp/rspec/')
+RSpec.configure do |config|
+  config.include(ScrawlHelper)
+end
