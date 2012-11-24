@@ -20,6 +20,11 @@ describe Scrawl::Entry do
     end
   end
 
+  it 'parses timestamp' do
+    dt = DateTime.parse('2012-11-23 14:33')
+    expect(entry.created_at).to eq(dt)
+  end
+
   # it 'writes html file'
   it 'writes tags to json data store'
 end

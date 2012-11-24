@@ -14,12 +14,16 @@ class Entry
     @data.output
   end
 
+  def created_at
+    @created_at ||= DateTime.parse(@data.metadata['created_at'])
+  end
+
   def tags
-    @data.metadata['tags'].split
+    @tags ||= @data.metadata['tags'].split
   end
 
   def filename
-    t = DateTime.parse(@data.metadata['created_at'])
+    t = created_at
     "sites/#{t.year}/#{t.month}/#{t.day}/#{t.hour}#{t.minute}.html"
   end
 
