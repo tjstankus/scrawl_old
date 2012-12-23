@@ -16,6 +16,10 @@ describe Scrawl::Entry do
     end
   end
 
+  it 'parses correct number of tags' do
+    expect(entry.tags.size).to eq(2)
+  end
+
   it 'parses timestamp' do
     dt = DateTime.parse('2012-11-23 14:33')
     expect(entry.created_at).to eq(dt)
