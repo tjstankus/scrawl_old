@@ -22,6 +22,6 @@ describe Scrawl::Entry do
   end
 
   # it 'writes html file'
-  it 'writes tags to json data store'
+  it 'writes tags to data store'
 end
 
