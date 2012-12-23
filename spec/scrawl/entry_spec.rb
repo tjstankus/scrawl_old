@@ -2,6 +2,18 @@ require_relative '../spec_helper'
 
 describe Scrawl::Entry do
 
+  let(:markdown) { <<MARKDOWN
+---
+tags: motorcycles longrides
+created_at: 2012-11-23 14:33
+---
+
+This is a sample paragraph.
+MARKDOWN
+ }
+
+  let(:entry) { Scrawl::Entry.new(markdown) }
+
   it 'generates filename' do
     expect(entry.filename).to eq('site/2012/11/23/1433.html')
   end
