@@ -24,7 +24,7 @@ module Scrawl
 
     def filename
       t = created_at
-      "sites/#{t.year}/#{t.month}/#{t.day}/#{t.hour}#{t.minute}.html"
+      "site/#{t.year}/#{t.month}/#{t.day}/#{t.hour}#{t.minute}.html"
     end
 
     def parse

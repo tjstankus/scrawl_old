@@ -4,6 +4,7 @@ describe Scrawl::Entry do
 
   it 'generates filename' do
     expect(entry.filename).to eq('sites/2012/11/23/1433.html')
+    expect(entry.filename).to eq('site/2012/11/23/1433.html')
   end
 
   it 'parses markdown content' do
