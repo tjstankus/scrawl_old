@@ -11,4 +11,8 @@ This is a sample paragraph.
 MARKDOWN
   end
 
+  def entry
+    Scrawl::Entry.new(markdown)
+  end
+
 end

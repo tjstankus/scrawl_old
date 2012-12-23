@@ -2,10 +2,6 @@ require_relative '../spec_helper'
 
 describe Scrawl::Entry do
 
-  let(:entry) {
-    Scrawl::Entry.new(markdown)
-  }
-
   it 'generates filename' do
     expect(entry.filename).to eq('sites/2012/11/23/1433.html')
   end
@@ -28,3 +24,4 @@ describe Scrawl::Entry do
   # it 'writes html file'
   it 'writes tags to json data store'
 end
+
