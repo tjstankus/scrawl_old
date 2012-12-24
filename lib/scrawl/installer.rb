@@ -2,10 +2,14 @@ require 'fileutils'
 
 module Scrawl
   class Installer
-    DIR_NAME = 'scrawl/entries/'
+    attr_reader :entries_dir
 
-    def self.install
-      FileUtils.mkdir_p(DIR_NAME) unless File.directory?(DIR_NAME)
+    def initialize(install_dir)
+      @entries_dir = File.join(install_dir, 'scrawl', 'entries')
+    end
+
+    def install
+      FileUtils.mkdir_p(entries_dir) unless File.directory?(entries_dir)
     end
   end
 end
