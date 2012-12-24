@@ -20,5 +20,4 @@ Gem::Specification.new do |gem|
   gem.add_dependency('metadown', '1.0.1')
 
   gem.add_development_dependency('rspec', '2.12.0')
-  gem.add_development_dependency('fakefs', '0.4.2')
 end
