@@ -5,6 +5,7 @@ describe Scrawl::Entry do
   let(:markdown) { <<MARKDOWN
 ---
 tags: motorcycles longrides
+created\_at: 2012-11-23 14:33
 ---
 
 This is a sample paragraph.
