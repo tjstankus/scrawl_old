@@ -37,7 +37,6 @@ MARKDOWN
     expect(entry.created_at).to eq(dt)
   end
 
-  # it 'writes html file'
   it 'writes tags to data store'
 end
 
