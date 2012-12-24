@@ -1,0 +1,22 @@
+---
+tags: blogging programming
+created\_at: 2012-12-22 13:37
+---
+
+TDD as a Skill
+==============
+
+TDD is a skillset, a subset of the overall programming skillset.
+
+Your TDD-fu gets better over time, with practice.
+
+At first, it is easy to dismiss TDD as theoretical overkill, as a pain in the
+ass without enough return value. Most likely, this attitude reflects the fact
+that you simply suck at TDD. But that's okay; accept your suckage as part of
+the learning curve and keep working at it. If you still think TDD is a Bad Idea
+after months of practicing, you are free to dismiss it, safe in the knowledge
+that you are a badass mother of a programmer. One absent the ability to make
+mistakes, or at least really care about making them. One whose APIs are right
+the first time, without the benefit of usage tests. One whose code is so damn
+tight, it needs not the extra layer of developer communication, nor the
+regression safety net that tests provide.

@@ -1,0 +1,13 @@
+---
+created\_at: 2012-12-23 12:03
+tags: testing programming
+---
+
+Test
+====
+
+This is a test.
+
+This fixture file is only a test.
+
+In the case of real writing, there might be something mildly interesting here.
